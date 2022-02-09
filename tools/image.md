@@ -10,7 +10,7 @@ const image = await loadImage('https://a.com/test.jpg')
 
 ## getImageBlobURL
 
-获取图片的 [blobURL](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL)，可用于前端图片下载
+获取图片的 [blobURL](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL)，可用于前端图片下载，因为跨域的图片无法使用 download 属性
 
 ```jsx
 try {
